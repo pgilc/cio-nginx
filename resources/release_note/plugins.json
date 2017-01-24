@@ -1,0 +1,74 @@
+{
+  "blueprints": [
+    {
+      "url": "bp/demo-release-note.html"
+    }
+  ],
+  "core": [
+    {
+      "components": [
+        {
+          "link": "/jenkins/",
+          "description": "Continuous Integration & Automation Server",
+          "img": "img/jenkins.png",
+          "title": "jenkins",
+          "id": "jenkins"
+        },
+        {
+          "link": "/gitlab",
+          "description": "Git Repository Management & Code Review Tool",
+          "img": "img/gitlab.svg",
+          "title": "gitlab",
+          "id": "gitlab"
+        },
+        {
+          "link": "/sonar/",
+          "description": "Static Code Analysis",
+          "img": "img/sonar.png",
+          "title": "sonar",
+          "id": "sonar"
+        },
+        {
+          "link": "/nexus/",
+          "description": "Software Repository Manager",
+          "img": "img/nexus.png",
+          "title": "nexus",
+          "id": "nexus"
+        },
+        {
+          "linkCreate": {
+            "endPath": "//grid/console",
+            "host": "selenium"
+          },
+          "link": "",
+          "description": "Selenium Grid for Automated Testing",
+          "img": "img/selenium.png",
+          "title": "selenium",
+          "id": "selenium"
+        },
+        {
+          "link": "/sensu/",
+          "description": "Monitoring",
+          "img": "img/sensu.png",
+          "title": "sensu",
+          "id": "sensu"
+        },
+        {
+          "link": "/ldap-ltb/",
+          "description": "Application that allows users to change their password in an LDAP directory",
+          "img": "img/ltb.png",
+          "title": "ltb",
+          "id": "ldap-ltb"
+        },
+        {
+          "link": "/ldap-phpadmin/",
+          "description": "Browser to manage your LDAP server",
+          "img": "img/phpldapadmin.png",
+          "title": "phpldapadmin",
+          "id": "ldap-phpadmin"
+        }
+      ],
+      "type": "Tool Links"
+    }
+  ]
+}
