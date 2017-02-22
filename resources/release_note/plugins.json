@@ -22,13 +22,6 @@
           "id": "gitlab"
         },
         {
-          "link": "/sonar/",
-          "description": "Static Code Analysis",
-          "img": "img/sonar.png",
-          "title": "sonar",
-          "id": "sonar"
-        },
-        {
           "link": "/nexus/",
           "description": "Software Repository Manager",
           "img": "img/nexus.png",
